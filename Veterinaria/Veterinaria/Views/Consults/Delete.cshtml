@@ -1,0 +1,48 @@
+﻿@model Veterinaria.Models.Consult
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Consult</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsultDay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultDay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsultType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultType)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

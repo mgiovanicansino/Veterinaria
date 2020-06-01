@@ -44,13 +44,15 @@ namespace Veterinaria.Models
             return new ApplicationDbContext();
         }
         
-       
-        DbSet<Veterinarian> Veterinarians { get; set; }
-        DbSet<Consult> Consults  { get; set; }
-        DbSet<History> Histories { get; set; }
-
+   
         public System.Data.Entity.DbSet<Veterinaria.Models.Owner> Owners { get; set; }
 
         public System.Data.Entity.DbSet<Veterinaria.Models.Pet> Pets { get; set; }
+
+        public System.Data.Entity.DbSet<Veterinaria.Models.Veterinarian> Veterinarians { get; set; }
+
+        public System.Data.Entity.DbSet<Veterinaria.Models.History> Histories { get; set; }
+
+        public System.Data.Entity.DbSet<Veterinaria.Models.Consult> Consults { get; set; }
     }
 }

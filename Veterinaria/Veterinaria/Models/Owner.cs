@@ -10,6 +10,7 @@ namespace Veterinaria.Models
     {
         public int Id { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
+        public ICollection<Pet> Pets { get; set; }
         
     }
 }

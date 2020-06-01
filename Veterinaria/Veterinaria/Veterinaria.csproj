@@ -171,11 +171,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Clase\Utilities.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ConsultsController.cs" />
+    <Compile Include="Controllers\HistoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\OwnersController.cs" />
     <Compile Include="Controllers\PetsController.cs" />
+    <Compile Include="Controllers\VeterinariansController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -190,6 +193,14 @@
     <Compile Include="Migrations\202005312315490_PicturePet.cs" />
     <Compile Include="Migrations\202005312315490_PicturePet.Designer.cs">
       <DependentUpon>202005312315490_PicturePet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010621481_Owner has Pets.cs" />
+    <Compile Include="Migrations\202006010621481_Owner has Pets.Designer.cs">
+      <DependentUpon>202006010621481_Owner has Pets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010628008_Pet has a Owner.cs" />
+    <Compile Include="Migrations\202006010628008_Pet has a Owner.Designer.cs">
+      <DependentUpon>202006010628008_Pet has a Owner.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -378,6 +389,21 @@
     <Content Include="Views\Pets\Details.cshtml" />
     <Content Include="Views\Pets\Edit.cshtml" />
     <Content Include="Views\Pets\Index.cshtml" />
+    <Content Include="Views\Veterinarians\Create.cshtml" />
+    <Content Include="Views\Veterinarians\Delete.cshtml" />
+    <Content Include="Views\Veterinarians\Details.cshtml" />
+    <Content Include="Views\Veterinarians\Edit.cshtml" />
+    <Content Include="Views\Veterinarians\Index.cshtml" />
+    <Content Include="Views\Histories\Create.cshtml" />
+    <Content Include="Views\Histories\Delete.cshtml" />
+    <Content Include="Views\Histories\Details.cshtml" />
+    <Content Include="Views\Histories\Edit.cshtml" />
+    <Content Include="Views\Histories\Index.cshtml" />
+    <Content Include="Views\Consults\Create.cshtml" />
+    <Content Include="Views\Consults\Delete.cshtml" />
+    <Content Include="Views\Consults\Details.cshtml" />
+    <Content Include="Views\Consults\Edit.cshtml" />
+    <Content Include="Views\Consults\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -403,6 +429,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005312315490_PicturePet.resx">
       <DependentUpon>202005312315490_PicturePet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010621481_Owner has Pets.resx">
+      <DependentUpon>202006010621481_Owner has Pets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010628008_Pet has a Owner.resx">
+      <DependentUpon>202006010628008_Pet has a Owner.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

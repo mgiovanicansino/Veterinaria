@@ -129,3 +129,5 @@ C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria
 C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria.dll
 C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb
 C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csprojAssemblyReference.cache
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Migrations.OwnerhasPets.resources
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Migrations.PethasaOwner.resources

@@ -31,6 +31,8 @@ namespace Veterinaria.Models
         [Required]
         public decimal Heigth { get; set; }
         public string Img { get; set; }
+        public Owner owner { get; set; }
         public ICollection<Consult> Consults { get; set; }
+        
     }
 }
