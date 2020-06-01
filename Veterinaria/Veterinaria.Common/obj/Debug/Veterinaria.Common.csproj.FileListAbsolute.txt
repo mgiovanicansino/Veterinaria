@@ -1,0 +1,5 @@
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria.Common\bin\Debug\Veterinaria.Common.dll
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria.Common\bin\Debug\Veterinaria.Common.pdb
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria.Common\obj\Debug\Veterinaria.Common.csproj.CoreCompileInputs.cache
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria.Common\obj\Debug\Veterinaria.Common.dll
+C:\Users\carde\Desktop\Veterinaria\Veterinaria\Veterinaria.Common\obj\Debug\Veterinaria.Common.pdb
