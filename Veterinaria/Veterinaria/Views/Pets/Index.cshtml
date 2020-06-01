@@ -3,13 +3,13 @@
 
 @{
     ViewBag.Title = "Index";
-    
+
 }
     
     <div class="container bg-light">
 
         <h2>Mascotas</h2>
-        <a class="btn btn-primary" href="@Url.Action("Create","Pets")"><span class="fas fa-plus"> Nuevo</span></a>
+        <a class="btn btn-primary" href="@Url.Action("Create", "Pets")"><span class="fas fa-plus"> Nuevo</span></a>
         
       
         <table class="table">
@@ -63,9 +63,9 @@
                         @Html.DisplayFor(modelItem => item.Heigth)
                     </td>
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id },new {@class="btn fas fa-edit"})  |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id },new { @class="btn fas fa-info-circle"}) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id },new {@class="btn fas fa-trash" })
                     </td>
                 </tr>
             }
